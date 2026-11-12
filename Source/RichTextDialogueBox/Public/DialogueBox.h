@@ -13,7 +13,7 @@
  * A text block that exposes more information about text layout.
  */
 UCLASS()
-class UDialogueTextBlock : public URichTextBlock
+class RICHTEXTDIALOGUEBOX_API UDialogueTextBlock : public URichTextBlock
 {
 	GENERATED_BODY()
 
@@ -43,7 +43,7 @@ struct FDialogueTextSegment
 };
 
 UCLASS()
-class FLAME_API UDialogueBox : public UUserWidget
+class RICHTEXTDIALOGUEBOX_API UDialogueBox : public UUserWidget
 {
 	GENERATED_BODY()
 

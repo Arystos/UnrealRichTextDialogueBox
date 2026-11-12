@@ -1,0 +1,19 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Rich Text Dialogue Box",
+	"Description": "Typewriter effect for URichTextBlock with correct wrapping (Sam Bloomberg, MIT). Plugin wrapper for UE 5.9.",
+	"Category": "UI",
+	"CreatedBy": "Sam Bloomberg",
+	"CreatedByURL": "https://github.com/redxdev/UnrealRichTextDialogueBox",
+	"CanContainContent": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "RichTextDialogueBox",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
